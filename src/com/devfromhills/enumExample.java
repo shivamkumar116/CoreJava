@@ -1,6 +1,8 @@
 package com.devfromhills;
 
 
+import java.sql.Time;
+
 //enum : enumeration are special data type used to define the collection of constant
 enum WEEKDAYS {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY

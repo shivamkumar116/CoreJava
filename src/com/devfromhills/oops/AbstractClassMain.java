@@ -7,6 +7,12 @@ public class AbstractClassMain {
         Phone phone = new Iphone();
         phone.makeCall();
         phone.operatingSystem("mac-OS");
+        System.out.println(phone.hasBattery());
+
+        Iphone iphone = new Iphone();
+        iphone.makeCall();
+        iphone.operatingSystem("MAC");
+        System.out.println("hasBattery : "+iphone.hasBattery());
 
     }
 
